@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Reader Page</title>
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1>Wallace's Lab 1 - Reader Page</h1>
+        <!-- Writer Button -->
+    <button onclick="window.location.href='writer.html'">Writer Page</button>
+    <p id="last-retrieved-time" style="text-align: right;"></p>
+
+    <div id="notes-container"></div>
+        <!-- Back Button, brings back to index page -->
+    <button id="reader-back-btn" onclick="window.location.href='index.html'">Back</button>
+
+    <!-- Scripts -->
+    <script src="./lang/messages/en/user.js"></script>
+    <script src="./js/note.js"></script>
+    <script src="./js/reader.js"></script>
+    <!-- Firebase Scripts -->
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+    <script src="./js/firebase-init.js"></script>
+</body>
+
+</html>

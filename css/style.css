@@ -1,0 +1,24 @@
+button {
+    height: 2.5em;
+    width: 8em;
+    margin: 3px;
+    border-radius: 10%;
+    border-color: black;
+    background-color: rgb(221, 221, 221);
+  }
+
+  .note {
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: space-between; /* Puts space between the items */
+    margin-bottom: 10px; /* Adds some space below each note */
+}
+
+.note textarea {
+    flex-grow: 1; /* Allows the textarea to take up the available space */
+    margin-right: 10px; /* Adds some space between the textarea and the button */
+}
+
+.note button {
+    vertical-align:text-bottom;
+}
+
