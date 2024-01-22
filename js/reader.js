@@ -1,3 +1,8 @@
+// Sources used for this js file:
+// Youtube videos
+// W3Schools
+// Chatgpt for debugging purposes, and research on localStorage
+
 // Reader class responsible for reading and displaying the notes
 class Reader {
     constructor() {

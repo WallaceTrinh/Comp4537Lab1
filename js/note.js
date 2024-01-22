@@ -1,3 +1,8 @@
+// Sources used for this js file:
+// Youtube videos
+// W3Schools
+// Chatgpt for debugging purposes, and research on localStorage
+
 // Note class to manage the notes created/removed for a single note
 class Note {
     constructor(id, text = '') {
